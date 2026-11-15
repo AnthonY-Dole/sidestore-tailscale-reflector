@@ -1,0 +1,17 @@
+{
+	"luci-app-sidestore-reflector": {
+		"description": "Grant access to SideStore Reflector configuration",
+		"read": {
+			"uci": [ "sidestore-reflector" ],
+			"ubus": {
+				"service": [ "list" ]
+			}
+		},
+		"write": {
+			"uci": [ "sidestore-reflector" ],
+			"ubus": {
+				"service": [ "list" ]
+			}
+		}
+	}
+}

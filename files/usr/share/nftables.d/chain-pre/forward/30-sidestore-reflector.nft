@@ -1,0 +1,2 @@
+iifname "sidestore" counter accept comment "sidestore-reflector"
+oifname "sidestore" counter accept comment "sidestore-reflector"

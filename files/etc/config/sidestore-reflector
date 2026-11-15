@@ -1,0 +1,8 @@
+config reflector 'main'
+	option enabled '0'
+	option mode 'node'
+	option node_addr 'auto'
+	option dnat_ports '62078, 49152-65535'
+	option reflect_ip '10.7.0.1'
+	option uplink_iface 'tailscale0'
+	option enforce_no_snat '1'

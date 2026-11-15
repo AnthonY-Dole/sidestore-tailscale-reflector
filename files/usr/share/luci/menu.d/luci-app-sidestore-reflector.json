@@ -1,0 +1,14 @@
+{
+	"admin/services/sidestore-reflector": {
+		"title": "SideStore Reflector",
+		"order": 60,
+		"action": {
+			"type": "view",
+			"path": "sidestore-reflector/main"
+		},
+		"depends": {
+			"acl": [ "luci-app-sidestore-reflector" ],
+			"uci": { "sidestore-reflector": true }
+		}
+	}
+}

@@ -1,0 +1,10 @@
+{
+  "index": 120,
+  "view": "sidestore-reflector",
+  "title": "SideStore Reflector",
+  "level": 2,
+  "parent": "applications",
+  "parent_icon": "application",
+  "parent_index": 55,
+  "show_mode": ["router"]
+}

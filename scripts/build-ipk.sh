@@ -68,7 +68,7 @@ cat > "$CTRL/control" <<EOF
 Package: $PKG
 Version: $VERSION-r$RELEASE
 Depends: $DEPENDS
-Source: https://github.com/Anthony/sidestore-reflector
+Source: https://github.com/AnthonY-Dole/sidestore-tailscale-reflector
 SourceName: $PKG
 License: MIT
 Section: net

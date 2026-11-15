@@ -1,4 +1,4 @@
-# SideStore Reflector
+# SideStore Tailscale Reflector
 
 **Refresh SideStore apps from anywhere, over Tailscale, without turning
 Tailscale off.**
@@ -11,6 +11,7 @@ already have, needs no computer, no container and no second VPN profile.
 | **What it is** | a TUN IPv4 reflector + OpenWrt service + web page |
 | **What it solves** | SideStore cannot refresh apps while Tailscale is connected |
 | **Needs** | an OpenWrt 23.05+ router with Tailscale, an iPhone with SideStore |
+| **Package name** | `sidestore-reflector` (`Services → SideStore Reflector` in LuCI) |
 | **Package size** | about 60 KB, one dependency (`kmod-tun`), stateless |
 | **Tested on** | GL-BE3600 (Slate 7), GL.iNet 4.10.1, OpenWrt 23.05-SNAPSHOT, SideStore `idevice` 0.6.3+ |
 
